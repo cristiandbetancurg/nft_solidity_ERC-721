@@ -7,6 +7,14 @@ ERC-721 fue creado para proporcionar la funcionalidad de hacer seguimiento y tra
 
 # El Código
 
+El contrato inteligente implementa todas las funciones del estándar ERC-721. Estas funciones permiten a los usuarios interactuar con los NFT, como comprarlos, venderlos y transferirlos.
+
+Algunas de las funciones ERC-721 más importantes que puedes incluir a este código son:
+
+balanceOf(): Devuelve el número de NFT que posee un determinado usuario.
+ownerOf(): Devuelve la dirección del propietario de un determinado NFT.
+transferFrom(): Transfiere un NFT de un usuario a otro.
+approve(): Autoriza a un tercero a transferir un NFT en nombre del propietario.
 
 ## nft.sol
 

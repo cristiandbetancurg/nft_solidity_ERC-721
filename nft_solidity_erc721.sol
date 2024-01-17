@@ -51,7 +51,7 @@ contract NFTCollection is ERC721 {
   // Crea un nuevo NFT
 
   function mintNFT() public payable {
-    // Comprueba que el usuario haya pagado la cantidad correcta
+    // Comprobamos que el usuario haya pagado la cantidad correcta
 
     require(msg.value == 0.01 ether);
 
